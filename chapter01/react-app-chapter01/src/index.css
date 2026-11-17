@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  color: #8a5a64;
+  background-color: #fcfaf7;
+  background-image:
+    radial-gradient(#f4b6c2 3px, transparent 3px),
+    radial-gradient(#f9d5e5 3px, transparent 3px);
+  background-size: 40px 40px;
+  background-position:
+    0 0,
+    20px 20px;
+}
+
+#root {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+#root > * {
+  text-align: center;
+}
+
+.react-calendar {
+  margin: 0 auto;
+  width: 500px !important;
+  max-width: none !important;
+}
+
+h1,
+h2 {
+  font-size: 32px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  width: 340px;
+  margin: 6px auto;
+}
+
+li button:first-of-type {
+  margin-left: auto;
+  margin-right: 6px;
+}
